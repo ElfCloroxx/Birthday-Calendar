@@ -2,17 +2,17 @@
 
 // Array of gifts/surprises for each day (from Jan 1 to Jan 12)
 const surprises = [
-  "A sweet message from me 💌",
-  "A cute picture of us together 📸",
-  "A link to your favorite song 🎶",
-  "A funny video I found 🎥",
-  "A coupon for a movie night 🍿",
+  "I HOPE YOU LIKE THIS GIFT, There are physical and digital gifts 💌",
+  "PHYSICAL GIFT 01",
+  "STEAM GIFT",
+  "Cursed selfie coupon",
+  "PHYSICAL GIFT 02",
   "A secret message, just for you 🕵️‍♂️",
-  "A love letter 💖",
-  "A discount code for your favorite store 🛍️",
-  "A virtual hug 🤗",
-  "A memory from our first date 📅",
-  "A cute animal video 🐾",
+  "PHYSICAL GIFT 03",
+  "A coupon for a movie night 🍿",
+  "PHYSICAL GIFT 04 ",
+  "LONG AHH LETTER OF REASONS I ADORE YOU",
+  "Physical GIFT 05",
   "A countdown timer for your birthday 🎂"
 ];
 
