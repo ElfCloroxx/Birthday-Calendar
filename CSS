@@ -1,0 +1,67 @@
+/* styles.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.calendar-container {
+  text-align: center;
+  max-width: 600px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin-top: 30px;
+}
+
+.day-box {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #4A4A4A;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.day-box:hover {
+  transform: scale(1.1);
+  background-color: #e6f7ff;
+}
+
+.day-box:active {
+  transform: scale(1);
+}
+
+.note {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .calendar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
